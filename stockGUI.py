@@ -1,12 +1,11 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
-import pandas_datareader as data
 from sklearn.preprocessing import MinMaxScaler
 import numpy as np
 from tensorflow.keras.models import load_model
 import yfinance as yf
-import altair.vegalite.v
+
 
 start = "2010-04-01"
 end = "2021-03-30"
